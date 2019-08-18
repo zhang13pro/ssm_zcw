@@ -16,7 +16,7 @@ public class SpringTest {
     public void run1(){
         ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:applicationConfig.xml");
         final IUserService userService = ac.getBean("userService",IUserService.class);
-        final User user = userService.findById(3);
+        final User user = userService.findById(2);
         System.out.println(user.getUsername());
     }
 }
