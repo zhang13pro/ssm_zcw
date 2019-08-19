@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: user
+  User: lenovo
   Date: 2019/8/18
-  Time: 22:51
+  Time: 20:27
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -126,7 +126,7 @@
 </div>
 
 
-<!-- 轮播-->
+<!-- 轮播 -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -154,6 +154,8 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+
 
 
 
@@ -605,7 +607,7 @@
         </div>
     </div>
 
-    <!-- FOOTER -->
+    <!-- 底部 -->
     <div class="container">
         <div class="row clearfix">
             <div class="col-md-12 column">

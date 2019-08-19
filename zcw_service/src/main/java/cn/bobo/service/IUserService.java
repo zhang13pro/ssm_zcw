@@ -9,4 +9,6 @@ import cn.bobo.bean.User;
  */
 public interface IUserService {
     User findById(Integer id);
+
+    User queryLoginUser(User user);
 }

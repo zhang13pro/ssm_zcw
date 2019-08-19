@@ -7,25 +7,118 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7426be5-eac6-4449-82bd-c4544c4e08cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/DispatcherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zcw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zcw/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zcw/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zcw/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zcw/target/zcw.war" beforeDir="false" afterPath="$PROJECT_DIR$/../zcw/target/zcw.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zcw/target/zcw/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../zcw/target/zcw/login.html" afterDir="false" />
+    <list default="true" id="f7426be5-eac6-4449-82bd-c4544c4e08cf" name="Default Changelist" comment="ajax 登录">
+      <change afterPath="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/bean/AJAXResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/ManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/manage/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/css/doc.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/fontawesome4.2/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/fontawesome4.2/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/fontawesome4.2/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/fontawesome4.2/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/fontawesome4.2/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/carousel-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/product-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/product-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/product-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/product-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/product-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/product_detail_body.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/product_detail_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/services-box1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/services-box2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/services-box3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/img/services-box4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/jquery/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/script/back-to-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/script/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/script/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/jquery.ztree.all-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/ztree/zTreeStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TieHanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TieHanhan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zcw_web/axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/axis.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zcw_web/src/test/java/cn/bobo/test/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/src/test/java/cn/bobo/test/SpringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zcw_web/target/test-classes/cn/bobo/test/SpringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/target/test-classes/cn/bobo/test/SpringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_dao/src/main/resources/cn/bobo/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_dao/src/main/resources/cn/bobo/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_dao/target/classes/cn/bobo/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_dao/target/classes/cn/bobo/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_dao/target/classes/cn/bobo/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_dao/target/classes/cn/bobo/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_dao/target/classes/cn/bobo/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_dao/target/classes/cn/bobo/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_service/target/classes/cn/bobo/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_service/target/classes/cn/bobo/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_service/target/classes/cn/bobo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_service/target/classes/cn/bobo/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/DispatcherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/DispatcherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_web/src/main/resources/applicationConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/src/main/resources/applicationConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_web/target/classes/applicationConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/target/classes/applicationConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_web/target/classes/cn/bobo/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/target/classes/cn/bobo/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/classes/META-INF/zcw_web.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/classes/applicationConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/classes/applicationConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/classes/cn/bobo/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/classes/cn/bobo/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/lib/zcw_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/lib/zcw_dao-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/lib/zcw_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/lib/zcw_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,62 +137,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/DispatcherController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+            <state relative-caret-position="110">
+              <caret line="96" column="57" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/ManagerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/manage/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="52" column="55" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="55" />
+              <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#2;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#5;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#6;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/index.jsp">
+        <entry file="file://$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/DispatcherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="116" column="60" lean-forward="true" selection-start-line="116" selection-start-column="60" selection-end-line="116" selection-end-column="60" />
+            <state relative-caret-position="-216">
+              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/bean/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -122,34 +223,40 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/zcw_web/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/damain/Items.java" />
         <option value="$PROJECT_DIR$/zcw_dao/src/main/resources/applicationConfig.xml" />
         <option value="$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/ItemsService.java" />
-        <option value="$PROJECT_DIR$/zcw_web/src/main/resources/applicationConfig.xml" />
         <option value="$PROJECT_DIR$/zcw_service/pom.xml" />
         <option value="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/zcw_dao/src/main/resources/cn/bobo/dao/ItemsDao.xml" />
         <option value="$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/impl/ItemsServiceImpl.java" />
         <option value="$PROJECT_DIR$/zcw_dao/src/main/resources/spring/applicationConfig-dao.xml" />
-        <option value="$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/bean/User.java" />
         <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/itemDetail.jsp" />
         <option value="$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/ItemsController.java" />
         <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/user.jsp" />
-        <option value="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/dao/IUserDao.java" />
-        <option value="$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/zcw_service/src/main/resources/spring/applicationConfig-service.xml" />
         <option value="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/reg.html" />
         <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/zcw_web/src/test/java/cn/bobo/test/SpringTest.java" />
         <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/bean/User.java" />
+        <option value="$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/zcw_dao/src/main/resources/cn/bobo/dao/IUserDao.xml" />
+        <option value="$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/bean/AJAXResult.java" />
         <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zcw_web/src/main/resources/applicationConfig.xml" />
+        <option value="$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/manager/main.jsp" />
         <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/main.jsp" />
-        <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/login.jsp" />
         <option value="$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/DispatcherController.java" />
+        <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/manage/main.jsp" />
+        <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/manage/logout.jsp" />
+        <option value="$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/ManagerController.java" />
       </list>
     </option>
   </component>
@@ -157,6 +264,12 @@
     <enabled-run-configurations>
       <run-configuration type="JUnit" name="SpringTest.run1" />
     </enabled-run-configurations>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -193,60 +306,158 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
               <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
               <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
               <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
               <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
               <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="bobo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="bobo" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
+              <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
               <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
               <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -254,8 +465,8 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_zcw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_zcw" type="462c0819:PsiDirectoryNode" />
               <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -263,34 +474,11 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zcw_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zcw_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="zcw_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +486,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566133367264" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566220278112" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/zcw_web/src/main/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -310,12 +498,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.bobo.bean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\eclipse-workspace\ssm_zcw\zcw_web\src\main\webapp" />
-      <recent name="D:\eclipse-workspace\ssm_zcw\zcw_web\src\main\webapp\WEB-INF" />
       <recent name="D:\WorkSpace\zcw_parent\zcw_web\src\main\webapp" />
-      <recent name="D:\WorkSpace\zcw_parent\zcw_web\src\main\webapp\WEB-INF\pages" />
-      <recent name="D:\WorkSpace\zcw_parent\zcw_dao\src\main\resources\spring" />
+      <recent name="D:\WorkSpace\zcw_parent\zcw_web\src\main\resources" />
+      <recent name="D:\WorkSpace\zcw_parent\zcw_service\src\main\resources\spring" />
+      <recent name="D:\WorkSpace\zcw_parent\zcw_dao\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.bobo.service.impl" />
@@ -323,13 +514,139 @@
       <recent name="cn.bobo.damain" />
       <recent name="cn.bobo.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\eclipse-workspace\ssm_zcw\zcw_web\src\main\webapp\WEB-INF\pages\manage" />
+      <recent name="D:\eclipse-workspace\ssm_zcw\zcw_web\src\main\webapp" />
+      <recent name="D:\eclipse-workspace\ssm_zcw\zcw_web\src\main\webapp\WEB-INF" />
       <recent name="D:\WorkSpace\zcw_parent\zcw_web\src\main\webapp" />
-      <recent name="D:\WorkSpace\zcw_parent\zcw_web\src\main\resources" />
-      <recent name="D:\WorkSpace\zcw_parent\zcw_service\src\main\resources\spring" />
-      <recent name="D:\WorkSpace\zcw_parent\zcw_dao\src\main\resources" />
-      <recent name="D:\WorkSpace\zcw_parent\zcw_dao\src\main\resources\cn\bobo\dao" />
+      <recent name="D:\WorkSpace\zcw_parent\zcw_web\src\main\webapp\WEB-INF\pages" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/axis.log</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/index.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/src/test/java/cn/bobo/test/SpringTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/target/test-classes/cn/bobo/test/SpringTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT.war</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/META-INF/MANIFEST.MF</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/lib/zcw_dao-1.0-SNAPSHOT.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/lib/zcw_service-1.0-SNAPSHOT.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/web.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/DispatcherController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/login.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/src/main/webapp/index.jsp</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/WEB-INF/classes/META-INF/zcw_web.kotlin_module</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/login.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/zcw_web/target/zcw_web-1.0-SNAPSHOT/reg.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -375,11 +692,11 @@
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_zcw_parent_2" />
         <option name="HTTP_PORT" value="80" />
       </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="59984" />
       </RunnerSettings>
@@ -437,8 +754,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SpringTest.run1" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.12" />
+      <item itemvalue="JUnit.SpringTest.run1" />
     </list>
     <recent_temporary>
       <list>
@@ -460,6 +777,7 @@
       <workItem from="1566053312141" duration="6925000" />
       <workItem from="1566092851838" duration="8795000" />
       <workItem from="1566126347768" duration="5188000" />
+      <workItem from="1566175975301" duration="25845000" />
     </task>
     <servers />
   </component>
@@ -496,13 +814,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32719000" />
+    <option name="totallyTimeSpent" value="58157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22392885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -512,8 +829,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30043384" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39335665" />
+      <window_info anchor="bottom" x="23" y="103" width="1237" height="659" id="Debug" order="3" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -523,9 +840,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32867134" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32692307" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -542,20 +859,34 @@
     <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
+    <option name="TAB_STATES">
       <map>
-        <entry key="Branch">
+        <entry key="MAIN">
           <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ajax 登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax 登录" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/domain.java" />
@@ -565,20 +896,6 @@
     <entry file="file://$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/ItemsService.java" />
     <entry file="file://$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/impl/ItemsServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/itemDetail.jsp" />
-    <entry file="file://$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_service/src/main/resources/spring/applicationConfig-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="38" column="84" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -594,42 +911,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/resources/applicationConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_dao/src/main/resources/spring/applicationConfig-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_dao/src/main/resources/cn/bobo/dao/IUserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/edit.html" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zcw_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -639,13 +921,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/reg.html" />
     <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/user.html" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -653,46 +928,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zcw_dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zcw_web/src/test/java/cn/bobo/test/SpringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="405">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -701,49 +943,160 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/user.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="378">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_service/src/main/java/cn/bobo/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_dao/src/main/resources/cn/bobo/dao/IUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_service/src/main/resources/spring/applicationConfig-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="992">
+          <caret line="38" column="84" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_dao/src/main/resources/spring/applicationConfig-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.2.RELEASE/spring-aop-5.0.2.RELEASE.jar!/org/springframework/aop/support/annotation/AnnotationMethodMatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/resources/applicationConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="182" column="21" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="108">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/bean/User.java">
+    <entry file="file://$PROJECT_DIR$/zcw_dao/src/main/java/cn/bobo/bean/AJAXResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="116" column="60" lean-forward="true" selection-start-line="116" selection-start-column="60" selection-end-line="116" selection-end-column="60" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="27">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="27">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/main.jsp">
+    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/manager/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2025">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="189">
+          <caret line="46" column="71" lean-forward="true" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -772,30 +1125,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/login.jsp">
+    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/manage/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="52">
+          <caret line="52" column="55" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="55" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#2;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#6;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/manage/logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zcw_web/src/main/java/cn/bobo/controller/DispatcherController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="-216">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zcw_web/src/main/webapp/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="96" column="57" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
         </state>
       </provider>
     </entry>

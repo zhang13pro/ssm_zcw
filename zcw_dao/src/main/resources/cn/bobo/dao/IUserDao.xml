@@ -3,7 +3,15 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.bobo.dao.IUserDao">
+    <!--测试方法查询-->
     <select id="findById" parameterType="int" resultType="user">
          select * from t_user where id=#{id}
+    </select>
+
+    <select id="queryLoginUser" resultType="user">
+        select
+               *
+        from t_user
+        where loginacct=#{loginacct} and userpswd=#{userpswd}
     </select>
 </mapper>

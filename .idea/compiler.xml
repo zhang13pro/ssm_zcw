@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="zcw_dao" />
         <module name="zcw_service" />
         <module name="zcw_web" />
-        <module name="zcw_dao" />
       </profile>
     </annotationProcessing>
   </component>

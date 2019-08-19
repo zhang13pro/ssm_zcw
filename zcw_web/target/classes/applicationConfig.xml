@@ -18,5 +18,4 @@
 
     <import resource="classpath:spring/applicationConfig-dao.xml"/>
     <import resource="classpath:spring/applicationConfig-service.xml"/>
-
 </beans>

@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author bobobo
  * @version 1.0
  * @date 2019/8/17 17:26
+ * 测试用
  */
 @Controller("userController")
 @RequestMapping("/user")

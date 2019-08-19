@@ -16,7 +16,12 @@ public class UserServiceImpl implements IUserService {
     @Autowired
     private IUserDao userDao;
 
+    //测试方法
     public User findById(Integer id) {
         return userDao.findById(id);
+    }
+
+    public User queryLoginUser(User user) {
+        return userDao.queryLoginUser(user);
     }
 }

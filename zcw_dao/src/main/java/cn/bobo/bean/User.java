@@ -14,8 +14,18 @@ public class User implements Serializable {
     private String loginacct;
     private String userpswd;
     private String username;
+    private String usertype;
     private String email;
     private String createtime;
+
+    public String getUsertype() {
+        return usertype;
+    }
+
+    public void setUsertype(String usertype) {
+        this.usertype = usertype;
+    }
+
 
     public int getId() {
         return id;
@@ -65,15 +75,5 @@ public class User implements Serializable {
         this.createtime = createtime;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", loginacct='" + loginacct + '\'' +
-                ", userpswd='" + userpswd + '\'' +
-                ", username='" + username + '\'' +
-                ", email='" + email + '\'' +
-                ", createtime='" + createtime + '\'' +
-                '}';
-    }
+
 }

@@ -32,15 +32,15 @@
 </nav>
 
 <div class="container">
-
+    <%--<h3>${errorMsg}</h3>--%>
     <form id="loginForm" action="dologin.html" method="post" class="form-signin" role="form">
         <h2 class="form-signin-heading"><i class="glyphicon glyphicon-log-in"></i> 用户登录</h2>
         <div class="form-group has-success has-feedback">
-            <input type="text" class="form-control" id="loginacct" placeholder="请输入登录账号" autofocus>
+            <input type="text" class="form-control" id="loginacct" name="loginacct" value="${loginUser.loginacct}" placeholder="请输入登录账号" autofocus>
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
         </div>
         <div class="form-group has-success has-feedback">
-            <input type="password" class="form-control" id="userpswd" placeholder="请输入登录密码" style="margin-top:10px;">
+            <input type="password" class="form-control" id="userpswd" name="userpswd" value="${loginUser.userpswd}" placeholder="请输入登录密码" style="margin-top:10px;">
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         </div>
         <div class="form-group has-success has-feedback">
@@ -82,7 +82,27 @@
             return;
         }
 
-        $("#loginForm").submit();
+        //异步线程提交数据
+        $.ajax({
+            url:"dologin.do",
+            type:"POST",
+            // dataType:"json",
+            data:{
+                "loginacct":loginacct.val(),
+                "userpswd":userpswd.val()
+            },
+            success:function(result){
+                //服务端返回结果
+                if (result.success){
+                    window.location.href = "manage/main";
+                } else {
+                    alert("用户名或密码错误");
+                }
+            },
+            error:function () {
+                alert("用户登录失败");
+            }
+        })
 
 /*        var type = $(":selected").val();
         if ( type == "user" ) {
