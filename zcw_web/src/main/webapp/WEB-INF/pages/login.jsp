@@ -46,7 +46,7 @@
         <div class="form-group has-success has-feedback">
             <select class="form-control" >
                 <option value="member">会员</option>
-                <option value="user">管理</option>
+                <option value="user" selected>管理</option>
             </select>
         </div>
         <div class="checkbox">
@@ -86,7 +86,7 @@
         $.ajax({
             url:"dologin.do",
             type:"POST",
-            // dataType:"json",
+            dataType:"json",
             data:{
                 "loginacct":loginacct.val(),
                 "userpswd":userpswd.val()
